@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Maxfield Stewart
+MAINTAINER Timothy Perry
 
 # Install all dependencies
 RUN echo 'deb http://httpredir.debian.org/debian jessie-backports main' > /etc/apt/sources.list.d/jessie-backports.list

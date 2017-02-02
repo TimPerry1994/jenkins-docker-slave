@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER Timothy Perry <timothy.perry@qa.com>
+MAINTAINER Timothy Perry 
 
 RUN yum update -y && yum clean all
 

@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Timothy Perry <timothy.perry@qa.com>
+MAINTAINER Timothy Perry 
 
 RUN useradd -d "/var/jenkins_home" -u 1000 -m -s /bin/bash jenkins
 RUN mkdir -p /var/log/jenkins

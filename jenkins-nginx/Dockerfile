@@ -1,5 +1,5 @@
 FROM centos:centos7
-MAINTAINER Timothy Perry <timothy.perry@qa.com>
+MAINTAINER Timothy Perry 
 
 # Install NGINX
 RUN yum -y update; yum clean all
