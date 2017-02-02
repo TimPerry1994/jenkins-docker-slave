@@ -1,5 +1,5 @@
-./jenkins-slave/files/id_rsa
-./jenkins-slave/files/authorized_keys
-./jenkins-master/certs
-./jenkins.log
-./.DS_Store
+jenkins-slave/files/id_rsa
+jenkins-slave/files/authorized_keys
+jenkins-master/certs
+jenkins.log
+.DS_Store
