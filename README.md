@@ -20,7 +20,7 @@ Instructions for use:
 
 - Run the following commands (Labelling them with the -p command is optional):
   - docker-compose build
-  - docker-compose up -d
+  - docker-compose up -d nginx data master
   
 - Navigate to your machine's IP address to set up jenkins with recommended plugins
 
