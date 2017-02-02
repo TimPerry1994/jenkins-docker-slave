@@ -8,9 +8,9 @@ Requirements:
 Instructions for use:
 
 - Create an ssh key pair in jenkins-slave/files:
-  enter "ssh-keygen -t rsa -b 4096"
-  use ./id_rsa as file location
-  enter "mv id_rsa.pub authorized_keys
+  - enter "ssh-keygen -t rsa -b 4096"
+  - use ./id_rsa as file location
+  - enter "mv id_rsa.pub authorized_keys
   
 - Find your PEM files (ca.pem, ca_key.pem, key.pem, cert.pem) and copy them to the folder "jenkins-master/certs"
 
