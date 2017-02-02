@@ -1,3 +1,4 @@
 ./jenkins-slave/files/id_rsa
 ./jenkins-slave/files/authorized_keys
+./jenkins-master/certs
 ./.DS_Store
