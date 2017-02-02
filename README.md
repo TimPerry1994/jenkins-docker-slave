@@ -1,6 +1,8 @@
 # jenkins-docker-slave
 A series of Dockerfiles to build a Jenkins environment that can create Docker slaves to run jobs before deleting them. Original files from https://github.com/maxfields2000/dockerjenkins_tutorial, then edited to use latest version of Jenkins and adds Maven.
 
+NOTE: There is an issue with the java version not being found, I am looking into this and will push changes when I find the correct version
+
 Requirements:
 -  Docker Toolbox
    OS X or Linux (preferred)
