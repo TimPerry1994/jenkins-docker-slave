@@ -7,6 +7,8 @@ Requirements:
 
 Instructions for use:
 
+- Ensure you have a docker-machine instance running with the quickstart terminal, and you know its IP address (Use "docker-     machine ip <YourMachineName>")
+
 - Create an ssh key pair in jenkins-slave/files:
   - enter "ssh-keygen -t rsa -b 4096"
   - use ./id_rsa as file location
