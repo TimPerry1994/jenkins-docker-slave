@@ -5,12 +5,12 @@ MAINTAINER Timothy Perry
 RUN echo 'deb http://httpredir.debian.org/debian jessie-backports main' > /etc/apt/sources.list.d/jessie-backports.list
 
 ENV LANG C.UTF-8
-ENV JAVA_VERSION 8u111
-ENV JAVA_DEBIAN_VERSION 8u111-b14-2~bpo8+1
+ENV JAVA_VERSION 8u121
+ENV JAVA_DEBIAN_VERSION 8u121-b13-1~bpo8+1
 
 # see https://bugs.debian.org/775775
 # and https://github.com/docker-library/java/issues/19#issuecomment-70546872
-ENV CA_CERTIFICATES_JAVA_VERSION 20140324
+ENV CA_CERTIFICATES_JAVA_VERSION 20161107~bpo8+1
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
@@ -146,5 +146,3 @@ RUN /usr/local/bin/mvn-entrypoint.sh
 
 USER ${user}
 ENTRYPOINT ["/bin/tini", "--", "/usr/local/bin/jenkins.sh"]
-
-# from a derived Dockerfile, can use `RUN plugins.sh active.txt` to setup /usr/share/jenkins/ref/plugins from a support bundle
