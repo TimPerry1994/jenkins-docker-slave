@@ -1,0 +1,14 @@
+ssh-slaves
+structs
+junit
+display-url-api
+mailer
+javadoc
+ssh-credentials
+credentials
+config-file-provider
+jclouds-jenkins
+token-macro
+maven-plugin
+durable-task
+docker-plugin
