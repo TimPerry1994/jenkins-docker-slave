@@ -22,7 +22,7 @@ Instructions for use:
   - docker-compose build
   - docker-compose up -d nginx data master
   
-- Navigate to your machine's IP address to set up jenkins with recommended plugins
+- Navigate to your machine's IP address to set up jenkins with recommended plugins (Initial admin password can be found with the command "docker logs <JENKINS-MASTER-MACHINE-NAME>"). The master machine name can be found using "docker ps"
 
 - Follow the remainder of the guide at https://engineering.riotgames.com/news/jenkins-ephemeral-docker-tutorial from "SETUP DOCKER CERTIFICATE DIRECTORY" onwards. Note that if you set a passcode for your ssh key pair, you will need it here.
 
