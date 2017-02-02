@@ -15,8 +15,8 @@ Instructions for use:
 - Find your PEM files (ca.pem, ca_key.pem, key.pem, cert.pem) and copy them to the folder "jenkins-master/certs"
 
 - Run the following commands (Labelling them with the -p command is optional):
-  docker-compose build
-  docker-compose up -d
+  - docker-compose build
+  - docker-compose up -d
   
 - Navigate to your machine's IP address to set up jenkins with recommended plugins
 
